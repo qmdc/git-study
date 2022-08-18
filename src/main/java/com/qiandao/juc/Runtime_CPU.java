@@ -29,6 +29,7 @@ public class Runtime_CPU {
 
         long end = System.currentTimeMillis();
         System.out.println(end-start);
+        System.out.println("test02修改代码");
     }
 }
 
