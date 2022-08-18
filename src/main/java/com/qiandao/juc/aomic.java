@@ -18,6 +18,7 @@ public class aomic {
             System.out.println("加锁了。。。");
             System.out.print(IntStream.range(0, 10).parallel().reduce(0, Integer::sum));
             lock.unlock();
+            System.out.println("解锁了");
         }).start();
     }
 }
